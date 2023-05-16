@@ -91,7 +91,7 @@ abstract class Kanban
      */
     public function margin(string $margin)
     {
-        $this->margin = $margin;
+        $this->gutter = $margin;
 
         return $this;
     }
